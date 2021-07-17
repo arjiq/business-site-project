@@ -1,0 +1,90 @@
+body{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    font-size: 20px;
+    font-family: 'Libre Baskerville', serif;
+    letter-spacing: 3px;
+}
+
+h1 {
+    font-size: 3.0rem;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    
+}
+
+.navbar a {
+    text-decoration: underline;
+    color: black;
+    
+}
+
+#mission {
+    width: 100%;
+    height: 400px;
+    background-image: url(/images/sf.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    
+}
+
+.statement {
+    margin: auto;
+    background-color: white;
+    width: 100%;
+}
+
+img {
+    height: 200px;
+    width: 300px;
+}
+
+#portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.photo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.photo-container span {
+    padding: 5px;
+    min-width: 240px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#team {
+    
+    width: 100%;
+    height: 400px;
+    background-image: url(/images/sf.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.team-statement {
+    margin: auto;
+    background-color: white;
+    width: 100%;
+}
+
+.copyright {
+padding-top: 40px;
+}
